@@ -1,0 +1,4 @@
+pyodbc
+PyQt5
+PyQtGraph
+pandas
