@@ -14,6 +14,7 @@ Tsena est une application de gestion pour les marchés et les locations de box c
 - Suivi des paiements par périodes (mois/année)
 - Gestion des périodes tarifaires spéciales
 
+
 ## Structure du projet
 ```
 Tsena
@@ -45,10 +46,23 @@ Tsena
 └── README.md                   # Documentation du projet
 ```
 
+## Configuration
+Le système permet de configurer:
+- Les tarifs par m² selon les marchés (ex: Andravohangy: 12k Ar/m², Anosibe: 14k Ar/m²)
+- Les périodes tarifaires spéciales (comme pour les périodes de fêtes)
+- Les dimensions et identifiants des box commerciaux
+
+## Technologies utilisées
+- Python (Développement)
+- Microsoft Access (Base de données)
+- PyQt (Interface graphique)
+- pandas (Manipulation des données)
+
+
 ## Installation
 1. Clonez le dépôt :
    ```
-   git clone https://github.com/Davekun017/Tsena.git
+   git clone https://github.com/Antonio2772/Tsena.git
    cd Tsena
    ```
 
@@ -65,17 +79,3 @@ Pour démarrer l'application, exécutez le fichier `main.py` :
 python src/main.py
 ```
 
-## Configuration
-Le système permet de configurer:
-- Les tarifs par m² selon les marchés (ex: Andravohangy: 12k Ar/m², Anosibe: 14k Ar/m²)
-- Les périodes tarifaires spéciales (comme pour les périodes de fêtes)
-- Les dimensions et identifiants des box commerciaux
-
-## Technologies utilisées
-- Python (Développement)
-- Microsoft Access (Base de données)
-- PyQt (Interface graphique)
-- pandas (Manipulation des données)
-
-## Contribuer
-Les contributions sont les bienvenues ! Veuillez soumettre une demande de tirage pour toute amélioration ou correction.
